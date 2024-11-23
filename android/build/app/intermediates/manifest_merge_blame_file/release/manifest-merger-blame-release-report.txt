@@ -1,0 +1,224 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.prize_bond"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml
+10    <!--
+11         Required to query activities that can process text, see:
+12         https://developer.android.com/training/package-visibility and
+13         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+14
+15         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+16    -->
+17    <queries>
+17-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:39:5-44:15
+18        <intent>
+18-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:40:9-43:18
+19            <action android:name="android.intent.action.PROCESS_TEXT" />
+19-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:41:13-72
+19-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:41:21-70
+20
+21            <data android:mimeType="text/plain" />
+21-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:42:13-50
+21-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:42:19-48
+22        </intent>
+23    </queries>
+24
+25    <permission
+25-->[androidx.core:core:1.13.1] C:\Users\Hasnain\.gradle\caches\transforms-3\fa78f660df41fa2df1e73860f7e05d0f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+26        android:name="com.example.prize_bond.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.13.1] C:\Users\Hasnain\.gradle\caches\transforms-3\fa78f660df41fa2df1e73860f7e05d0f\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.13.1] C:\Users\Hasnain\.gradle\caches\transforms-3\fa78f660df41fa2df1e73860f7e05d0f\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.example.prize_bond.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.13.1] C:\Users\Hasnain\.gradle\caches\transforms-3\fa78f660df41fa2df1e73860f7e05d0f\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.13.1] C:\Users\Hasnain\.gradle\caches\transforms-3\fa78f660df41fa2df1e73860f7e05d0f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+30
+31    <application
+32        android:name="android.app.Application"
+32-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:4:9-42
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.13.1] C:\Users\Hasnain\.gradle\caches\transforms-3\fa78f660df41fa2df1e73860f7e05d0f\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:5:9-43
+35        android:label="prize_bond" >
+35-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:3:9-35
+36        <activity
+36-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:6:9-27:20
+37            android:name="com.example.prize_bond.MainActivity"
+37-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:7:13-41
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:12:13-163
+39            android:exported="true"
+39-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:8:13-36
+40            android:hardwareAccelerated="true"
+40-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:13:13-47
+41            android:launchMode="singleTop"
+41-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:9:13-43
+42            android:taskAffinity=""
+42-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:10:13-36
+43            android:theme="@style/LaunchTheme"
+43-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:11:13-47
+44            android:windowSoftInputMode="adjustResize" >
+44-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:14:13-55
+45
+46            <!--
+47                 Specifies an Android theme to apply to this Activity as soon as
+48                 the Android process has started. This theme is visible to the user
+49                 while the Flutter UI initializes. After that, this theme continues
+50                 to determine the Window background behind the Flutter UI.
+51            -->
+52            <meta-data
+52-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:19:13-22:17
+53                android:name="io.flutter.embedding.android.NormalTheme"
+53-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:20:15-70
+54                android:resource="@style/NormalTheme" />
+54-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:21:15-52
+55
+56            <intent-filter>
+56-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:23:13-26:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:24:17-68
+57-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:24:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:25:17-76
+59-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:25:27-74
+60            </intent-filter>
+61        </activity>
+62        <!--
+63             Don't delete the meta-data below.
+64             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+65        -->
+66        <meta-data
+66-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:30:9-32:33
+67            android:name="flutterEmbedding"
+67-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:31:13-44
+68            android:value="2" />
+68-->C:\Users\Hasnain\flutter practice\prize_bond\android\app\src\main\AndroidManifest.xml:32:13-30
+69
+70        <provider
+70-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:9-19:20
+71            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+71-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-82
+72            android:authorities="com.example.prize_bond.flutter.image_provider"
+72-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-74
+73            android:exported="false"
+73-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-37
+74            android:grantUriPermissions="true" >
+74-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-47
+75            <meta-data
+75-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-18:75
+76                android:name="android.support.FILE_PROVIDER_PATHS"
+76-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-67
+77                android:resource="@xml/flutter_image_picker_file_paths" />
+77-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:18:17-72
+78        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+79        <service
+79-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-33:19
+80            android:name="com.google.android.gms.metadata.ModuleDependencies"
+80-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-78
+81            android:enabled="false"
+81-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-36
+82            android:exported="false" >
+82-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
+83            <intent-filter>
+83-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-28:29
+84                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+84-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:27:17-94
+84-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:27:25-91
+85            </intent-filter>
+86
+87            <meta-data
+87-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-32:36
+88                android:name="photopicker_activity:0:required"
+88-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-63
+89                android:value="" />
+89-->[:image_picker_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:32:17-33
+90        </service>
+91
+92        <activity
+92-->[:url_launcher_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+93            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+93-->[:url_launcher_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+94            android:exported="false"
+94-->[:url_launcher_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+95            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+95-->[:url_launcher_android] C:\Users\Hasnain\flutter practice\prize_bond\android\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+96
+97        <uses-library
+97-->[androidx.window:window:1.0.0-beta04] C:\Users\Hasnain\.gradle\caches\transforms-3\5b692a4125637ddbe7886cd94755a016\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+98            android:name="androidx.window.extensions"
+98-->[androidx.window:window:1.0.0-beta04] C:\Users\Hasnain\.gradle\caches\transforms-3\5b692a4125637ddbe7886cd94755a016\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+99            android:required="false" />
+99-->[androidx.window:window:1.0.0-beta04] C:\Users\Hasnain\.gradle\caches\transforms-3\5b692a4125637ddbe7886cd94755a016\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+100        <uses-library
+100-->[androidx.window:window:1.0.0-beta04] C:\Users\Hasnain\.gradle\caches\transforms-3\5b692a4125637ddbe7886cd94755a016\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+101            android:name="androidx.window.sidecar"
+101-->[androidx.window:window:1.0.0-beta04] C:\Users\Hasnain\.gradle\caches\transforms-3\5b692a4125637ddbe7886cd94755a016\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+102            android:required="false" />
+102-->[androidx.window:window:1.0.0-beta04] C:\Users\Hasnain\.gradle\caches\transforms-3\5b692a4125637ddbe7886cd94755a016\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+103
+104        <provider
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:25:13-67
+106            android:authorities="com.example.prize_bond.androidx-startup"
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:26:13-68
+107            android:exported="false" >
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:27:13-37
+108            <meta-data
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+110                android:value="androidx.startup" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+111        </provider>
+112
+113        <receiver
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+114            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+115            android:directBootAware="false"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+116            android:enabled="true"
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+117            android:exported="true"
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+118            android:permission="android.permission.DUMP" >
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+120                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+123                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+126                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+129                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hasnain\.gradle\caches\transforms-3\ebcd88d19c9a47156d422cd194ed00c8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+130            </intent-filter>
+131        </receiver>
+132    </application>
+133
+134</manifest>
